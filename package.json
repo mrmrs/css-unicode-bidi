@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "unicode-bidi"
   ],
   "css-unicode-bidi": {
     "type": "git",

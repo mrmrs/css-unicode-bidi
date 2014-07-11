@@ -27,7 +27,7 @@ or download the css on github and include in your project.
 .ub-pt {            unicode-bidi: plaintext; }
 .ub-i {             unicode-bidi: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ub-norm-ns {          unicode-bidi: normal; }
   .ub-embed-ns {         unicode-bidi: embed; }
   .ub-iso-ns {           unicode-bidi: isolate; }
@@ -37,7 +37,7 @@ or download the css on github and include in your project.
   .ub-i-ns {             unicode-bidi: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ub-norm-m {          unicode-bidi: normal; }
   .ub-embed-m {         unicode-bidi: embed; }
   .ub-iso-m {           unicode-bidi: isolate; }
@@ -47,7 +47,7 @@ or download the css on github and include in your project.
   .ub-i-m {             unicode-bidi: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .ub-norm-l {          unicode-bidi: normal; }
   .ub-embed-l {         unicode-bidi: embed; }
   .ub-iso-l {           unicode-bidi: isolate; }

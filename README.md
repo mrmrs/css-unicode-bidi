@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-unicode-bidi)
 ## File Size
 
 1.5K unicode-bidi.css
-1.1K unicode-bidi.min.css
+1.1K unicode-bidi.min.css 
+243B minified and gzipped
 
 ## The Code
 ```

@@ -1,7 +1,7 @@
 {
   "name": "css-unicode-bidi",
   "style": "unicode-bidi.css",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "http://github.com/mrmrs/css-unicode-bidi",
   "description": "Css module of single purpose classes for unicode bidi",
   "keywords": [

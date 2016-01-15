@@ -33,6 +33,6 @@
     "tachyons-cli": "^0.3.2"
   },
   "scripts": {
-    "start": "tachyons src/tachyons-base.css > css/tachyons-base.css && tachyons src/tachyons-base.css --minify > css/tachyons-base.min.css && tachyons src/tachyons-base.css --generate-docs --package=../../package.json > readme.md"
+    "start": "tachyons src/css-unicode-bidi.css > css/css-unicode-bidi.css && tachyons src/css-unicode-bidi.css --minify > css/css-unicode-bidi.min.css && tachyons src/css-unicode-bidi.css --generate-docs --package=../../package.json > readme.md"
   }
 }

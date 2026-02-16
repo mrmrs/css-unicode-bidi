@@ -1,113 +1,108 @@
-# css-unicode-bidi 0.0.6
+# css-unicode-bidi
 
-Css module of single purpose classes for unicode bidi
+Functional CSS for unicode-bidi
 
-#### Stats
+## Filesize
 
-282 | 28 | 28
----|---|---
-bytes | selectors | declarations
+| File | Size |
+|------|------|
+| `dist/unicode-bidi.css` | 2219 bytes |
+| `dist/unicode-bidi.min.css` | 1661 bytes (305 Gzipped) |
 
-## Installation
+## Install
 
-#### With [npm](https://npmjs.com)
-
-```
-npm install --save-dev css-unicode-bidi
-```
-
-#### With Git
-
-```
-git clone https://github.com/tachyons-css/css-unicode-bidi
+```sh
+npm install css-unicode-bidi
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
-
-Import the css module
+### Import
 
 ```css
 @import "css-unicode-bidi";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
-
-```sh
-$ npm i -g tachyons-cli
-$ tachyons-cli path/to/css-file.css > dist/t.css
-```
-
-#### Using the CSS
-
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
-You can either cut and paste that css or link to it directly in your html.
+### CDN
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/css-unicode-bidi">
+<link rel="stylesheet" href="https://unpkg.com/css-unicode-bidi/dist/unicode-bidi.min.css">
 ```
 
-#### Development
+### Direct
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
-
-## The CSS
-
-```css
-/*
-   UNICODE BIDI
-*/
-.ub-norm { unicode-bidi: normal; }
-.ub-embed { unicode-bidi: embed; }
-.ub-iso { unicode-bidi: isolate; }
-.ub-bidi-override { unicode-bidi: bidi-override; }
-.ub-iso-override { unicode-bidi: isolate-override; }
-.ub-pt { unicode-bidi: plaintext; }
-.ub-i { unicode-bidi: inherit; }
-@media screen and (min-width: 48em) {
- .ub-norm-ns { unicode-bidi: normal; }
- .ub-embed-ns { unicode-bidi: embed; }
- .ub-iso-ns { unicode-bidi: isolate; }
- .ub-bidi-override-ns { unicode-bidi: bidi-override; }
- .ub-iso-override-ns { unicode-bidi: isolate-override; }
- .ub-pt-ns { unicode-bidi: plaintext; }
- .ub-i-ns { unicode-bidi: inherit; }
-}
-@media screen and (min-width:48em) and (max-width: 64em) {
- .ub-norm-m { unicode-bidi: normal; }
- .ub-embed-m { unicode-bidi: embed; }
- .ub-iso-m { unicode-bidi: isolate; }
- .ub-bidi-override-m { unicode-bidi: bidi-override; }
- .ub-iso-override-m { unicode-bidi: isolate-override; }
- .ub-pt-m { unicode-bidi: plaintext; }
- .ub-i-m { unicode-bidi: inherit; }
-}
-@media screen and (min-width: 64em) {
- .ub-norm-l { unicode-bidi: normal; }
- .ub-embed-l { unicode-bidi: embed; }
- .ub-iso-l { unicode-bidi: isolate; }
- .ub-bidi-override-l { unicode-bidi: bidi-override; }
- .ub-iso-override-l { unicode-bidi: isolate-override; }
- .ub-pt-l { unicode-bidi: plaintext; }
- .ub-i-l { unicode-bidi: inherit; }
-}
+```html
+<link rel="stylesheet" href="path/to/css-unicode-bidi/dist/unicode-bidi.min.css">
 ```
 
-## Contributing
+## Classes
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+| Class   | Value                    |
+|---------|--------------------------|
+| `.ub-normal` | `unicode-bidi: normal;` |
+| `.ub-embed` | `unicode-bidi: embed;` |
+| `.ub-isolate` | `unicode-bidi: isolate;` |
+| `.ub-bidi-override` | `unicode-bidi: bidi-override;` |
+| `.ub-isolate-override` | `unicode-bidi: isolate-override;` |
+| `.ub-plaintext` | `unicode-bidi: plaintext;` |
+| `.ub-initial` | `unicode-bidi: inherit;` |
+| `.ub-revert` | `unicode-bidi: revert;` |
+| `.ub-revert-layer` | `unicode-bidi: revert-layer;` |
+| `.ub-unset` | `unicode-bidi: unset;` |
+| `.ub-normal-s` | `unicode-bidi: normal;` |
+| `.ub-embed-s` | `unicode-bidi: embed;` |
+| `.ub-isolate-s` | `unicode-bidi: isolate;` |
+| `.ub-bidi-override-s` | `unicode-bidi: bidi-override;` |
+| `.ub-isolate-override-s` | `unicode-bidi: isolate-override;` |
+| `.ub-plaintext-s` | `unicode-bidi: plaintext;` |
+| `.ub-initial-s` | `unicode-bidi: inherit;` |
+| `.ub-revert-s` | `unicode-bidi: revert;` |
+| `.ub-revert-layer-s` | `unicode-bidi: revert-layer;` |
+| `.ub-unset-s` | `unicode-bidi: unset;` |
+| `.ub-normal-m` | `unicode-bidi: normal;` |
+| `.ub-embed-m` | `unicode-bidi: embed;` |
+| `.ub-isolate-m` | `unicode-bidi: isolate;` |
+| `.ub-bidi-override-m` | `unicode-bidi: bidi-override;` |
+| `.ub-isolate-override-m` | `unicode-bidi: isolate-override;` |
+| `.ub-plaintext-m` | `unicode-bidi: plaintext;` |
+| `.ub-initial-m` | `unicode-bidi: inherit;` |
+| `.ub-revert-m` | `unicode-bidi: revert;` |
+| `.ub-revert-layer-m` | `unicode-bidi: revert-layer;` |
+| `.ub-unset-m` | `unicode-bidi: unset;` |
+| `.ub-normal-l` | `unicode-bidi: normal;` |
+| `.ub-embed-l` | `unicode-bidi: embed;` |
+| `.ub-isolate-l` | `unicode-bidi: isolate;` |
+| `.ub-bidi-override-l` | `unicode-bidi: bidi-override;` |
+| `.ub-isolate-override-l` | `unicode-bidi: isolate-override;` |
+| `.ub-plaintext-l` | `unicode-bidi: plaintext;` |
+| `.ub-initial-l` | `unicode-bidi: inherit;` |
+| `.ub-revert-l` | `unicode-bidi: revert;` |
+| `.ub-revert-layer-l` | `unicode-bidi: revert-layer;` |
+| `.ub-unset-l` | `unicode-bidi: unset;` |
 
-## Authors
+### Responsive
 
-* [mrmrs](http://mrmrs.io)
-* [johno](http://johnotander.com)
+Responsive variants are available for each class with the following suffixes:
+
+| Suffix | Media Query              |
+|--------|--------------------------|
+| `-s`   | `min-width: 32em`        |
+| `-m`   | `min-width: 48em`        |
+| `-l`   | `min-width: 96em`        |
+
+Example: `.ub-normal-m` applies the property at the medium breakpoint and above.
+
+## Building
+
+```sh
+npm run build
+```
+
+Processes `src/unicode-bidi.css` with [Lightning CSS](https://lightningcss.dev) and outputs to `dist/`.
+
+- `dist/unicode-bidi.css` — formatted
+- `dist/unicode-bidi.min.css` — minified
 
 ## License
 
-ISC
+MIT

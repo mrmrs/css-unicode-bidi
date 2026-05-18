@@ -1,4 +1,4 @@
-.ub-normal {
+.ub-norm {
   unicode-bidi: normal;
 }
 
@@ -6,7 +6,7 @@
   unicode-bidi: embed;
 }
 
-.ub-isolate {
+.ub-iso {
   unicode-bidi: isolate;
 }
 
@@ -14,32 +14,20 @@
   unicode-bidi: bidi-override;
 }
 
-.ub-isolate-override {
+.ub-iso-override {
   unicode-bidi: isolate-override;
 }
 
-.ub-plaintext {
+.ub-pt {
   unicode-bidi: plaintext;
 }
 
-.ub-inherit, .ub-initial {
+.ub-i {
   unicode-bidi: inherit;
 }
 
-.ub-revert {
-  unicode-bidi: revert;
-}
-
-.ub-revert-layer {
-  unicode-bidi: revert-layer;
-}
-
-.ub-unset {
-  unicode-bidi: unset;
-}
-
 @media screen and (width >= 32em) {
-  .ub-normal-s {
+  .ub-norm-s {
     unicode-bidi: normal;
   }
 
@@ -47,7 +35,7 @@
     unicode-bidi: embed;
   }
 
-  .ub-isolate-s {
+  .ub-iso-s {
     unicode-bidi: isolate;
   }
 
@@ -55,33 +43,21 @@
     unicode-bidi: bidi-override;
   }
 
-  .ub-isolate-override-s {
+  .ub-iso-override-s {
     unicode-bidi: isolate-override;
   }
 
-  .ub-plaintext-s {
+  .ub-pt-s {
     unicode-bidi: plaintext;
   }
 
-  .ub-inherit-s, .ub-initial-s {
+  .ub-i-s {
     unicode-bidi: inherit;
-  }
-
-  .ub-revert-s {
-    unicode-bidi: revert;
-  }
-
-  .ub-revert-layer-s {
-    unicode-bidi: revert-layer;
-  }
-
-  .ub-unset-s {
-    unicode-bidi: unset;
   }
 }
 
 @media screen and (width >= 48em) {
-  .ub-normal-m {
+  .ub-norm-m {
     unicode-bidi: normal;
   }
 
@@ -89,7 +65,7 @@
     unicode-bidi: embed;
   }
 
-  .ub-isolate-m {
+  .ub-iso-m {
     unicode-bidi: isolate;
   }
 
@@ -97,33 +73,21 @@
     unicode-bidi: bidi-override;
   }
 
-  .ub-isolate-override-m {
+  .ub-iso-override-m {
     unicode-bidi: isolate-override;
   }
 
-  .ub-plaintext-m {
+  .ub-pt-m {
     unicode-bidi: plaintext;
   }
 
-  .ub-inherit-m, .ub-initial-m {
+  .ub-i-m {
     unicode-bidi: inherit;
-  }
-
-  .ub-revert-m {
-    unicode-bidi: revert;
-  }
-
-  .ub-revert-layer-m {
-    unicode-bidi: revert-layer;
-  }
-
-  .ub-unset-m {
-    unicode-bidi: unset;
   }
 }
 
 @media screen and (width >= 96em) {
-  .ub-normal-l {
+  .ub-norm-l {
     unicode-bidi: normal;
   }
 
@@ -131,7 +95,7 @@
     unicode-bidi: embed;
   }
 
-  .ub-isolate-l {
+  .ub-iso-l {
     unicode-bidi: isolate;
   }
 
@@ -139,27 +103,15 @@
     unicode-bidi: bidi-override;
   }
 
-  .ub-isolate-override-l {
+  .ub-iso-override-l {
     unicode-bidi: isolate-override;
   }
 
-  .ub-plaintext-l {
+  .ub-pt-l {
     unicode-bidi: plaintext;
   }
 
-  .ub-inherit-l, .ub-initial-l {
+  .ub-i-l {
     unicode-bidi: inherit;
-  }
-
-  .ub-revert-l {
-    unicode-bidi: revert;
-  }
-
-  .ub-revert-layer-l {
-    unicode-bidi: revert-layer;
-  }
-
-  .ub-unset-l {
-    unicode-bidi: unset;
   }
 }
